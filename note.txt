@@ -1,0 +1,11 @@
+1. npm i -g @angular/cli
+2. ng new tenfolder
+3. npm start hoặc ng serve
+4. nếu cài library trong dependencies là những lib bắt buộc có để chạy web
+    còn cài lib trong devdependencies là những lib chỉ cần cho code (VD: typescript)
+    nếu cài mọi thứ trong dependencies sẽ bị nặng
+5. Module dùng để quản lý component -> import export thẳng component đó
+6. Tạo nhanh folder và import vào module -> terminal vào app -> ng g component <ten-component>
+7. Tạo nhanh module: ng g module <module-name>
+8. Khởi tạo nhanh file: a-component (templateUrl vs styleUrl)
+a-component-inline: Tạo nhanh component vs template
